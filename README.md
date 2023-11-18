@@ -5,9 +5,9 @@ After installing `@tauri-apps/cli` globally:
 - dev: `tauri dev`
 - build: `tauri build`
 
-## Extra Setup
+## Comes with
 
-- Nuxt 3
+- Nuxt 3 (+ DevTools)
 
 ## Type Support For `.vue` Imports in TS (Take Over Mode)
 
