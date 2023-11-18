@@ -1,10 +1,15 @@
 # Tauri + Vue 3 + TypeScript
 
+After installing `@tauri-apps/cli` globally:
+
+- dev: `tauri dev`
+- build: `tauri build`
+
 ## Extra Setup
 
 - Nuxt 3
 
-## Type Support For `.vue` Imports in TS
+## Type Support For `.vue` Imports in TS (Take Over Mode)
 
 Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
 

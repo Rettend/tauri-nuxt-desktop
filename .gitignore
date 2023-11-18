@@ -1,3 +1,11 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
 # Logs
 logs
 *.log
@@ -22,5 +30,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-nuxt-src

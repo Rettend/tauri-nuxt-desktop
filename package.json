@@ -4,20 +4,27 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "tauri": "tauri"
+    "dev": "nuxt dev",
+    "build": "vue-tsc --noEmit && nuxt build",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "lint:fix": "pnpm run lint --fix",
+    "generate": "nuxt generate",
+    "tauri": "tauri",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "vue": "^3.3.4",
     "@tauri-apps/api": "^1.5.1"
   },
   "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@tauri-apps/cli": "^1.5.6",
     "@vitejs/plugin-vue": "^4.2.3",
+    "nuxt": "^3.8.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.4",
-    "vue-tsc": "^1.8.5",
-    "@tauri-apps/cli": "^1.5.6"
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^1.8.5"
   }
 }
