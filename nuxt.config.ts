@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
+  ssr: false,
   modules: [
     '@unocss/nuxt',
   ],

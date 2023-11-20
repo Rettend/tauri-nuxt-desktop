@@ -5,11 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
-    "build": "vue-tsc --noEmit && nuxt build",
-    "preview": "nuxt preview",
+    "build": "vue-tsc --noEmit && nuxt generate",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "generate": "nuxt generate",
     "tauri": "tauri",
     "postinstall": "nuxt prepare"
   },

@@ -2,7 +2,8 @@
 
 After installing `@tauri-apps/cli` globally:
 
-- dev: `tauri dev`
+- dev (browser): `nr dev`
+- dev (desktop): `tauri dev`
 - build: `tauri build`
 
 ## Comes with
