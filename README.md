@@ -8,6 +8,7 @@ After installing `@tauri-apps/cli` globally:
 ## Comes with
 
 - Nuxt 3 (+ DevTools)
+- Antfu EsLint (older)
 
 ## Type Support For `.vue` Imports in TS (Take Over Mode)
 

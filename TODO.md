@@ -1,5 +1,5 @@
 # TODOs
 
 - [x] nuxt
-- [ ] antfu eslint
+- [x] antfu eslint
 - [ ] unocss
