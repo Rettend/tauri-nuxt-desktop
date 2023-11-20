@@ -2,4 +2,5 @@
 
 - [x] nuxt
 - [x] antfu eslint
-- [ ] unocss
+- [x] unocss
+- [ ] friendly readme
