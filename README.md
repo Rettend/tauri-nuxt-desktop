@@ -1,10 +1,8 @@
 # Tauri Nuxt Desktop 🖥️
 
-After installing `@tauri-apps/cli` globally:
-
 - dev (browser): `nr dev`
-- dev (desktop): `tauri dev`
-- build: `tauri build`
+- dev (desktop): `nr tauri dev`
+- build: `nr tauri build`
 
 ## Comes with
 
