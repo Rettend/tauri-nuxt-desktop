@@ -1,4 +1,4 @@
-# Tauri + Vue 3 + TypeScript
+# Tauri Nuxt Desktop 🖥️
 
 After installing `@tauri-apps/cli` globally:
 
