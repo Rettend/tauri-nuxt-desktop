@@ -6,9 +6,7 @@ export default defineNuxtConfig({
     enabled: true,
   },
   ssr: false,
-  modules: [
-    '@unocss/nuxt',
-  ],
+  modules: ['@unocss/nuxt'],
   vite: {
     clearScreen: false,
     server: {
