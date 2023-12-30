@@ -37,4 +37,4 @@ ni
 
 - Vue [Takeover mode](https://vuejs.org/guide/typescript/overview.html#volar-takeover-mode)
 
-## 📱 [Mobile Version](https://github.com/Rettend/tauri-nut-mobile)
+## 📱 [Mobile Version](https://github.com/Rettend/tauri-nuxt-mobile)
