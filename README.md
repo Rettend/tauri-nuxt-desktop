@@ -4,10 +4,37 @@
 [![Badge](https://img.shields.io/badge/UnoCSS-4D4D4D)](https://unocss.dev/)
 [![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
-- dev (browser): `nr dev`
-- dev (desktop): `nr tauri dev`
-- build: `nr tauri build`
+## 🚀 Install
 
-## Pre-requisites
+> [!TIP]
+> Install [ni](https://github.com/antfu/ni) and choose `pnpm`.
+>
+> ```bash
+> npm i -g @antfu/ni
+> ```
+
+### Install `tauri` globally
+
+```bash
+ni -g @tauri-apps/cli
+```
+
+If you skip this step, you will need to run the tauri scripts like this: `npx tauri dev` or `nr tauri dev`.
+
+### Install dependencies
+
+```bash
+ni
+```
+
+## 🥏 Run
+
+- dev (browser): `nr dev`
+- dev (desktop): `tauri dev`
+- build: `tauri build`
+
+## 🪨 Other
 
 - Vue [Takeover mode](https://vuejs.org/guide/typescript/overview.html#volar-takeover-mode)
+
+## 📱 [Mobile Version](https://github.com/Rettend/tauri-nut-mobile)
