@@ -1,5 +1,5 @@
 {
-  "name": "tauri-app",
+  "name": "tauri-nuxt-desktop",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -12,7 +12,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@tauri-apps/api": "^1.5.1"
+    "@tauri-apps/api": "1.5.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.6.1",

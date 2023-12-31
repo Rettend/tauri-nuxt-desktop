@@ -12,6 +12,6 @@ export default defineConfig({
     }),
   ],
   shortcuts: {
-    body: ' bg-black text-center text-white font-sans',
+    body: 'bg-black text-center text-white font-sans',
   },
 })

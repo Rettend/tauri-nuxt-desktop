@@ -13,7 +13,7 @@ const { data } = await useFetch<Data>('/api/hello')
 
 <template>
   <div body>
-    <div v-if="data" p-5 text-2xl font-bold>
+    <div v-if="data" m-a w-fit p-5 text-2xl font-bold>
       Hello, {{ data.name }}
     </div>
     <NuxtWelcome />
