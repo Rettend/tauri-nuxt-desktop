@@ -1,20 +1,39 @@
 <script lang="ts" setup>
 // https://nuxt.com/docs/guide/directory-structure/pages
 
+import { invoke } from '@tauri-apps/api'
+
 // this should auto-import but ˇ^ˇ
-import { useFetch } from '#imports'
+import { ref } from '#imports'
 
-interface Data {
-  name: string
+const greet = ref<HTMLDivElement>()
+const name = ref('Anon')
+const toggle = ref(false)
+
+async function greetUser() {
+  if (!greet.value)
+    return
+
+  const text = await invoke<string>('greet', { name: name.value })
+
+  if (toggle.value)
+    greet.value.textContent = `Hello, ${name.value}`
+  else
+    greet.value.textContent = text
+
+  toggle.value = !toggle.value
 }
-
-const { data } = await useFetch<Data>('/api/hello')
 </script>
 
 <template>
   <div body>
-    <div v-if="data" m-a w-fit p-5 text-2xl font-bold>
-      Hello, {{ data.name }}
+    <div
+      ref="greet"
+      m-a w-fit cursor-pointer p-5 text-2xl
+      :font="toggle ? 'bold' : ''"
+      @click="greetUser"
+    >
+      Hello, {{ name }}
     </div>
     <NuxtWelcome />
   </div>
